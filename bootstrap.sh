@@ -14,4 +14,4 @@ sudo fc-cache -f -v
 wget https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-x86_64-v0.10.1.zip
 sudo unzip exa-linux-x86_64-v0.10.1.zip -d $HOME/.local
 
-cp $HOME/.local/completions/exa.fish $HOME/.config/fish/completions/exa.fish
+# cp $HOME/.local/completions/exa.fish $HOME/.config/fish/completions/exa.fish
