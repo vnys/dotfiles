@@ -1,7 +1,7 @@
 export DEBIAN_FRONTEND=noninteractive
 
 sudo apt-get update
-sudo apt-get -y install --no-install-recommends fish wget unzip exa
+sudo apt-get -y install --no-install-recommends fish wget unzip
 
 cp -f ./.config/fish $HOME/.config/fish
 cp -f ./.themes $HOME/.themes
