@@ -10,6 +10,7 @@ sudo unzip exa-linux-x86_64-v0.10.1.zip -d $HOME/.local
 
 cp -fr ./.config/fish $HOME/.config/
 cp -fr ./.themes $HOME/
+cp -f ./.gitconfig $HOME/
 
 # Install Jetbrains Mono font (no effect on ChromeOS)
 # wget https://download.jetbrains.com/fonts/JetBrainsMono-2.001.zip
