@@ -1,4 +1,4 @@
-#!/bin/fish
+#!/bin/bash
 
 export DEBIAN_FRONTEND=noninteractive
 
