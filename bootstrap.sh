@@ -18,6 +18,8 @@ cp -f ./.gitconfig $HOME/
 # sudo fc-cache -f -v
 
 cp $HOME/.local/completions/exa.fish $HOME/.config/fish/completions/exa.fish
-curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
-fisher install pure-fish/pure
-source
+
+fish <<'END_FISH'
+    curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+    fisher install pure-fish/pure
+END_FISH
