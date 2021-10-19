@@ -19,7 +19,7 @@ cp -f ./.gitconfig $HOME/
 
 cp $HOME/.local/completions/exa.fish $HOME/.config/fish/completions/exa.fish
 
-fish <<'END_FISH'
-    curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
-    fisher install pure-fish/pure
-END_FISH
+# fish <<'END_FISH'
+#    curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+#    fisher install pure-fish/pure
+# END_FISH
