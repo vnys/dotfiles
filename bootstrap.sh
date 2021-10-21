@@ -12,14 +12,4 @@ cp -fr ./.config/fish $HOME/.config/
 cp -fr ./.themes $HOME/
 cp -f ./.gitconfig $HOME/
 
-# Install Jetbrains Mono font (no effect on ChromeOS)
-# wget https://download.jetbrains.com/fonts/JetBrainsMono-2.001.zip
-# sudo unzip JetBrainsMono-2.001.zip -d /usr/share/fonts
-# sudo fc-cache -f -v
-
 cp $HOME/.local/completions/exa.fish $HOME/.config/fish/completions/exa.fish
-
-# fish <<'END_FISH'
-#    curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
-#    fisher install pure-fish/pure
-# END_FISH
