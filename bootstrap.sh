@@ -4,7 +4,7 @@ export DEBIAN_FRONTEND=noninteractive
 
 sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt-get update
-sudo apt-get -y install --no-install-recommends fish wget unzip neovim
+sudo apt-get -y install --no-install-recommends fish wget unzip neovim yq jq
 
 wget https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-x86_64-v0.10.1.zip
 sudo unzip exa-linux-x86_64-v0.10.1.zip -d $HOME/.local
