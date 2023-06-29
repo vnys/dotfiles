@@ -3,6 +3,7 @@
 export DEBIAN_FRONTEND=noninteractive
 
 sudo add-apt-repository ppa:neovim-ppa/stable
+sudo add-apt-repository ppa:rmescandon/yq
 sudo apt-get update
 sudo apt-get -y install --no-install-recommends fish wget unzip neovim yq jq
 
